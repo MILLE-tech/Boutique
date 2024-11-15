@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maison - Boutique Arsène</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Boutique Arsène</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="panier.html">Panier</a></li>
+                <li><a href="commande.html">Commander</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Maison</h1>
+        <section id="products" class="product-list">
+            <div class="product">
+                <img src="assets/sofa.jpg" alt="Canapé">
+                <h3>Canapé Confort</h3>
+                <p>499.99 €</p>
+                <button onclick="addToCart(7)">Ajouter au panier</button>
+            </div>
+            <div class="product">
+                <img src="assets/lamp.jpg" alt="Lampe">
+                <h3>Lampe Design</h3>
+                <p>79.99 €</p>
+                <button onclick="addToCart(8)">Ajouter au panier</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Boutique Arsène. Tous droits réservés.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
